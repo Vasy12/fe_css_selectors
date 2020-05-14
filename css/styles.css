@@ -1,21 +1,42 @@
+/**/
+p > p {
+
+}
+
+p p {
+
+}
+
 /*
-    CSS SELECTORS
+    СЕЛЕКТОРЫ ЭЛЕМЕНТОВ ОДНОГО УРОВНЯ ВЛОЖЕННОСТИ
 */
 
-/*Селекторы потомков*/
-
-#parent .child {
-    color: red;
-    font-weight: bold;
+.userCardContainer {
+    box-sizing: border-box;
+    height: 400px;
+    width: 300px;
+    background: darkviolet;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Селектор дочерних элементов*/
-#parent2 > .child {
-    color: red;
-    font-weight: bold;
+.contactsContainer {
+    margin-top: auto;
+    display: flex;
+    padding: 10px;
 }
 
-/* Селекторы соседних элементов*/
+.contactLink {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: orange;
+    display: block;
+}
 
-
-
+.contactLink + .contactLink {
+    margin-left: 20px;
+}
