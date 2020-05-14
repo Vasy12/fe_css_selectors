@@ -1,42 +1,12 @@
-/**/
-p > p {
-
-}
-
-p p {
-
-}
-
 /*
     СЕЛЕКТОРЫ ЭЛЕМЕНТОВ ОДНОГО УРОВНЯ ВЛОЖЕННОСТИ
 */
 
-.userCardContainer {
-    box-sizing: border-box;
-    height: 400px;
-    width: 300px;
-    background: darkviolet;
-    border-radius: 10px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.text {
+    text-indent: 3em;
 }
 
-.contactsContainer {
-    margin-top: auto;
-    display: flex;
-    padding: 10px;
-}
-
-.contactLink {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: orange;
-    display: block;
-}
-
-.contactLink + .contactLink {
-    margin-left: 20px;
+.text ~ p {
+    color: red;
+    font-weight: bold;
 }
