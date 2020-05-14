@@ -1,3 +1,21 @@
 /*
     CSS SELECTORS
 */
+
+/*Селекторы потомков*/
+
+#parent .child {
+    color: red;
+    font-weight: bold;
+}
+
+/* Селектор дочерних элементов*/
+#parent2 > .child {
+    color: red;
+    font-weight: bold;
+}
+
+/* Селекторы соседних элементов*/
+
+
+
